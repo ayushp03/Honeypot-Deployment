@@ -1,0 +1,44 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+env/
+venv/
+*.pyc
+__pycache__/
+
+# Cowrie log files
+log/*
+log/tty/*
+log/cowrie.json
+log/cowrie.log
+log/cowrie.output
+
+# Cowrie downloads (files attackers attempt to upload)
+downloaded_files/*
+dl/*
+
+# VirtualBox-related files
+*.vbox
+*.vbox-prev
+*.iso
+*.ova
+*.ovf
+
+# Large disk image files
+*.vdi
+*.vhd
+*.vmdk
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.pid
